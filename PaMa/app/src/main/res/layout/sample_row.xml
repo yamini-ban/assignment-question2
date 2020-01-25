@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="3">
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/website_row"
+        android:text="sample website"/>
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/email_row"
+        android:text="sample email"/>
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/password_row"
+        android:text="sample password"/>
+
+</TableRow>
